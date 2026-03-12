@@ -27,16 +27,16 @@ class Parc:
             return
         
 
-        etat_vehicule= False
+        presence_vehicule = False
         for  v in self.listeVoitures:
             if v.matricule == voiture.matricule:
-                etat_vehicule = True
-            else :
-                etat_vehicule =False
+                presence_vehicule = True
+                break
 
-        if etat_vehicule == True:
-            print (f"la voiture est presente danc le parc donc impossible de l' ajouter dans le parc")
+        if presence_vehicule :
+            print (f"la voiture {voiture.matricule} est deja danc le parc .")
         else :
+            self.listeVoitures.append(voiture)
             print(f"voiture ajoutee avec succes: la voiture {voiture.matricule} est entree dans le parc")    
 
     def sortirVoiture(self,voiture):
@@ -45,7 +45,7 @@ class Parc:
             if v.matricule == voiture.matricule:
                 retraitVoiture = v
                 break
-        if retirerVoiture:
+        if retraitVoiture:
             self.listeVoitures.remove(retraitVoiture)    
             print(f"la voiture {voiture.matricule} est sortie avec succes")
         else :
