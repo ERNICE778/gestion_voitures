@@ -1,6 +1,6 @@
 # Atelier 3: Gestion d' un parc de voitures 
 #
-## gcours : INF1093- PROGRAMMATION 2
+## cours : INF1093- PROGRAMMATION 2
 ## professeur : Youness Boukouchi 
 
 
