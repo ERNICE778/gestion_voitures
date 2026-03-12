@@ -5,7 +5,7 @@
 
 
 ### Description de l'atelier
-le but de cet atelier est d'implementer un systeme de gestion d'un parc automobile en utilisant la programmation oriente objet a l' aide du language python dont les principales methodes sont le nombre de place disponible dans le parc , l'entree d une voiture dans le parc et la sortie d'une voiture du parc. 
+le but de cet atelier est d'implementer un systeme de gestion d'un parc automobile en utilisant la programmation orienté objet à l' aide du langage python dont les principales méthodes sont: le nombre de place disponible dans le parc , l'entrée d' une voiture dans le parc et la sortie d'une voiture du parc. 
 
 ### Mes informations personnelles
  # prenom:Ernice
