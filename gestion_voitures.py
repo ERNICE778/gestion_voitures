@@ -23,7 +23,7 @@ class Parc:
     
     def entrerVoiture(self,voiture):
         if self.calculerNbrPlacesLibres() <=0:
-            print(f"Impossible d'ajouter cette voiture:le parc est deja plein.")
+            print(f"Impossible d'ajouter la voiture {voiture.matricule}:le parc est deja plein.")
             return
         
 
